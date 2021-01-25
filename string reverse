@@ -1,0 +1,8 @@
+#reverse String
+
+def reverse(s):
+  s = s[::-1]
+  return s
+
+s = "sneha"
+print("string reverse:" +reverse(s))
