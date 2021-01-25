@@ -1,0 +1,16 @@
+
+some_list= ['a','b','h','a','y','s','n','e','h','a']
+duplicate=[]
+
+#some_list.append(duplicate)
+#print(some_list)
+
+#some_list.extend(duplicate)
+#print(some_list)
+
+d= set(some_list)
+print(list(d))
+
+
+
+
