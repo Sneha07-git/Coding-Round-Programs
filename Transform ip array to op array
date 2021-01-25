@@ -1,0 +1,18 @@
+#1) You have to write a program to transform input array into output array.
+
+
+input_arr = [2,4,8,5,12,15,6,10,7,30,25,43,46,45,21]
+output_arr= []
+ 
+
+for x,num in enumerate(input_arr):
+
+  if num % 5==0:
+    output_arr.append(num)
+  else :
+    output_arr.insert(0,num)
+
+print(output_arr)
+#op2=output_arr[:9]
+#op2=op2[::-1]
+

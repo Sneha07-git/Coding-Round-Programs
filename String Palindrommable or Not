@@ -1,0 +1,33 @@
+#2) Let's say you are given a string. You can get many strings (combination) out of the given original string if you rearrange characters of original string.String is Palindromable if any one combination is palindrome.
+
+num_of_char =[256]
+
+def string_palidrommable(str):
+
+  count= [0]*(num_of_char) #initialize count array
+
+  for i in range(0, len(str)): 
+    #assigning counter to work through th string array
+
+    count[ord(str[i])]==count[ord(str[i])] + 1
+
+  odd=0
+  #count odd occuring charaters
+  for i in range(0, num_of_char):
+    if(count[i] & 1):
+      odd = odd+1
+    
+    if(odd > 1):
+      return False
+
+  return True
+
+if(string_palidrommable("NINIT")) : 
+    print("Yes") 
+else : 
+    print("No") 
+      
+if(string_palidrommable("NINNIT")) : 
+    print("Yes") 
+else : 
+    print("No") 
