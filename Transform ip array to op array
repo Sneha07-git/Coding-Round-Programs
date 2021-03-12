@@ -15,4 +15,4 @@ for x,num in enumerate(input_arr):
 print(output_arr)
 #op2=output_arr[:9]
 #op2=op2[::-1]
-
+ 
