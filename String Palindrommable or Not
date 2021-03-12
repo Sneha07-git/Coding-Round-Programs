@@ -31,3 +31,4 @@ if(string_palidrommable("NINNIT")) :
     print("Yes") 
 else : 
     print("No") 
+ 
